@@ -67,8 +67,8 @@ function Home() {
 </div>
 
       <div className="container">
-      <center><div class="text-bigger text-pink">Fun Css</div></center>
-<div class="text-x-large text-center container padding text-lighter">
+      <center><h1 class="text-bigger text-pink no-margin">Fun Css</h1></center>
+<div class="text-x-large text-center container  text-lighter">
 Modern responsive CSS framework for developing responsive websites.
 </div>
 <div class="flex">
@@ -100,21 +100,27 @@ Modern responsive CSS framework for developing responsive websites.
 <div className="text-center text-x-large text-lighter text-indigo">Our Themes</div>
 <div className="text-center text-larger">Free Css Themes</div>
 <div className="text-center text-medium text-lighter padding">Download and use our Themes for free, Build cool websites with Funcss.</div>
-<div className="row">
-<div className="col sm-12 md-6 lg-6 padding">
-<div className="border pointer">
-<div>
-    <img src="/themes/education.jpg" className="width-100-p height-200" />
-</div>
-</div>
-</div>
-<div className="col sm-12 md-6 lg-6 padding">
-<div className="border pointer">
-<div>
-    <img src="/themes/education2.jpg" className="width-100-p height-200" />
-</div>
-</div>
-</div>
+<div class="slider three">
+    <div class="slide-container">
+        <div class="slide">
+            <div class="slide-content">
+            <img src="/themes/1.jpg" class="responsive" alt="company theme" />
+            </div>
+
+        </div>
+        <div class="slide">
+            <div class="slide-content">
+            <img src="/themes/2.jpg" class="responsive" alt="company theme" />
+            </div>
+        </div>
+        <div class="slide">
+        <div class="slide-content">
+        <img src="/themes/3.jpg" class="responsive" alt="company theme" />
+        </div>
+        </div>
+   
+    </div>
+
 </div>
 </div>
 

@@ -206,9 +206,9 @@ This navigation bar have dropdown which contains links to other subpages.
      <div class="indigo padding collapse" style={{height:`${height}`,overflow:`${overflow}`}}>
         <div class="link-wrapper">
          <a href="#" class="text-white">Home</a>
-       <a href="#" class="text-white">About</a>
-      <a href="#" class="text-white">Team</a>
-      <a href="#" class="text-white">Contact</a>
+       <a href="#services" class="text-white">Services</a>
+      <a href="#team" class="text-white">Team</a>
+      <a href="#contact" class="text-white">Contact</a>
       <div class="dropdown-hover">
     <button class="button text-white drop-button"> Dropdown <i class="fas fa-angle-down rotate-up"></i></button>
      <div class="drop-menu white item-hoverable text-black fit-width">
