@@ -150,20 +150,25 @@ function Card() {
     <div class="header-3 text-indigo">Horizontal Card</div>
     <div class="code">
         <xmp>
-            {`
-    <div class="card width-300">
-    <div class="relative">
-        <img src="images/deo.jpg" className="width-100-p height-200" />
-        <div class="text-large card-title text-white">Card Title</div>
-        <div class="text-large card-fab"> <button className='button indigo card text-white float height-40 width-40'>Fab</button></div>
-    </div>
-
-    <div class="padding">
-    This is have a Title on top of the image with a floating button.
-    You can use this card to display informtion about a person or a team.
-    </div>
-</div>
-            `}
+         {`<div class="card horizontal hover-shadow">
+        <div className="relative">
+             <img src="images/deo.jpg" class="responsive" />
+                <div class="text-large card-title text-white">Card Title</div>
+        </div>
+      
+            <div class="card-body">
+               <div>
+                This card displays its content in a row.
+                Just add the class horizontal to use this kind of card
+                deleniti eius consectetur quod. Lorem ipsum dolor sit amet consectetur 
+              </div>
+            <div class="card-footer">
+            <a href="#" class="text-indigo">Link One</a>
+            <a href="#" class="text-indigo">Link Two</a>
+            <a href="#" class="text-indigo">Link Three</a>    
+            </div>
+           </div>
+ </div>`}
         </xmp>
     </div>
     <div class="preview">

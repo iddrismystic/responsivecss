@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Footer from './../components/Footer';
+import Colors from './Colors';
 
 function Home() {
     return (
@@ -13,11 +14,11 @@ function Home() {
             <div class="slide-content">
             <div class="row">
     <div class="col sm-12 md-4 lg-4 ">
-      <img src="/images/12.jpg" class="round-edge responsive" />
+    <img src="/svg/devices.svg" className="responsive" />
     </div>
-    <div class="col padding-20 sm-12 md-8 lg-8 ">
-     <div class="text-big montserrat padding">Modern Responsive Css framework</div>
-     <div class="padding text-larger">
+    <div class="col padding sm-12 md-8 lg-8 ">
+     <h1 class="montserrat no-margin">Best Css Framework Developing Responsive Websites</h1>
+     <div class="text-larger">
        Funcss is a modern responsive css framework which uses css grid to create responsive 
        website layout.
      </div>
@@ -33,9 +34,9 @@ function Home() {
     <div class="col sm-12 md-4 lg-4 ">
       <img src="/images/13.jpg" class="round-edge responsive" />
     </div>
-    <div class="col padding-20 sm-12 md-8 lg-8 ">
-     <div class="text-big montserrat padding">Reduce Coding Stress</div>
-     <div class="padding text-larger">
+    <div class="col padding sm-12 md-8 lg-8 ">
+     <h1 class="montserrat">Reduce Coding Stress</h1>
+     <div class="text-larger">
      Funcss come with build-in css classes, just specify the class name and funcss will do the rest for you.
      </div>
     </div>
@@ -48,9 +49,9 @@ function Home() {
     <div class="col sm-12 md-4 lg-4 ">
       <img src="/images/14.jpg" class="round-edge responsive" />
     </div>
-    <div class="col padding-20 sm-12 md-8 lg-8 ">
-     <div class="text-big montserrat padding">Build Nice Designs</div>
-     <div class="padding text-larger">
+    <div class="col padding sm-12 md-8 lg-8 ">
+     <h1 class="montserrat no-margin">Greate UI Designs</h1>
+     <div class="text-larger">
       Create awesome web design using funcss, build impressive website with just little effort.
      </div>
     </div>
@@ -68,9 +69,9 @@ function Home() {
 
       <div className="container">
       <center><h1 class="text-bigger text-pink no-margin">Fun Css</h1></center>
-<div class="text-x-large text-center container  text-lighter">
+<h2 class="text-x-large text-center container  text-lighter">
 Modern responsive CSS framework for developing responsive websites.
-</div>
+</h2>
 <div class="flex">
     <div class="flex-50">
         <div class="padding">
@@ -99,7 +100,8 @@ Modern responsive CSS framework for developing responsive websites.
 <div className="container">
 <div className="text-center text-x-large text-lighter text-indigo">Our Themes</div>
 <div className="text-center text-larger">Free Css Themes</div>
-<div className="text-center text-medium text-lighter padding">Download and use our Themes for free, Build cool websites with Funcss.</div>
+<div className="text-center text-medium text-lighter padding">
+  Download and use our Themes for free, Build cool websites with Funcss.</div>
 <div class="slider three">
     <div class="slide-container">
         <div class="slide">
@@ -141,9 +143,150 @@ Modern responsive CSS framework for developing responsive websites.
   </button></Link>
 </div>
 <div className="container text-center">
-<img src="/svg/devices.svg" className="width-100-p" />
+<img src="/svg/devices.svg" className="width-100-p" alt="cssresponsive" />
 </div>
 </div>
+
+<div className="section hr"></div>
+
+<div className="container padding-top-30">
+<h1 className="text-center text-xx-large text-lighter text-indigo no-margin">HTML AND CSS BUTTONS</h1>
+<h2 class="text-x-large text-center no-margin">Create Nice Css Buttons Designs</h2>
+<div className="padding">
+  Create nice css buttons for your website, use buttons with cool animation effects, 
+  Just type the class <span class="badge">button</span> to style your button, you can change the background color
+  of your button by using our css color classes, you can also create a hover up and ripple buttons.
+</div>
+<div>
+  
+<div>
+    <div className='row'>
+        <div className='col sm-12 md-4 lg-4 padding'>
+            <div className='padding border card'>
+                <div className='text-large'>Simple Button</div>
+                <div className='hr section'></div>
+                <button className='button indigo  text-white'>Simple Button</button>
+            </div>
+        </div>
+        <div className='col sm-12 md-4 lg-4 padding'>
+            <div className='padding border card'>
+            <div className='text-large'>Raised Button</div>
+                <div className='hr section'></div>
+                <button className='button deep-purple text-white card'>Raised Button</button>
+            </div>
+        </div>
+        <div className='col sm-12 md-4 lg-4 padding'>
+            <div className='padding border card'>
+            <div className='text-large'>Circular Button</div>
+                <div className='hr section'></div>
+                <button className='button indigo card text-white float height-50 width-50'>Float</button>
+            </div>
+        </div>
+        <div className='col sm-12 md-4 lg-4 padding'>
+            <div className='padding border card'>
+            <div className='text-large'>Full width Button</div>
+                <div className='hr section'></div>
+                <button className='button full-width green text-white card'>Full width</button>
+            </div>
+        </div>
+        <div className='col sm-12 md-4 lg-4 padding'>
+            <div className='padding border card'>
+            <div className='text-large'>Ripple Effect Button</div>
+                <div className='hr section'></div>
+                <button className='button full-width ripple pink text-white card'>Ripple Effect</button>
+            </div>
+        </div>
+        <div className='col sm-12 md-4 lg-4 padding'>
+            <div className='padding border card'>
+            <div className='text-large'>Hover Up Button</div>
+                <div className='hr section'></div>
+                <button className='button full-width ripple teal card hover-up'>Hover up</button>
+            </div>
+        </div>
+    </div>
+    <div class="padding">
+<Link to="/buttons"><button class="fun-secondary button card text-white f2">
+  Learn More
+  <i class="fas fa-angle-right margin-left-10"></i>
+  </button></Link>
+</div>
+</div>
+</div>
+
+
+</div>
+<div className="section hr"></div>
+
+<div className="container padding-top-30">
+<h1 className="text-center text-xx-large text-lighter text-indigo no-margin">CSS CARDS</h1>
+<div className="padding">
+ Design nice css cards, hoverable fliping card, reveal content card and horizontal cards.
+ Cards are use to design specific important areas of your website, you can use css cards to 
+ design the about page of your website, login forms, and other forms. <br />
+ The class <span class="card">card </span> is use to create a cool shadow effect on your 
+ html element.
+</div>
+<div>
+  
+<div>
+    <div className='row'>
+        <div className='col sm-12 md-4 lg-4 padding'>
+<div class="card width-100-p">
+    <div class="relative">
+        <img src="images/deo.jpg" className="width-100-p height-200" />
+        <div class="text-large card-title text-white">Card Title</div>
+    </div>
+
+    <div class="padding">
+    This is have a Title on top of the image.
+    You can use this card to display informtion about a person or a team.
+    </div>
+</div>
+        </div>
+        <div className='col sm-12 md-4 lg-4 padding'>
+<div class="card hover-shadow">
+    <div class="relative">
+        <img src="images/deo.jpg" class="width-100-p height-200" />
+        <div class="text-large card-title text-white">Card Title</div>
+        <div class="text-large card-fab"> <button class='button indigo card text-white float height-40 width-40'>Fab</button></div>
+    </div>
+
+    <div class="padding">
+    This is have a Title on top of the image with a floating button.
+    You can use this card to display informtion about a person or a team.
+    </div>
+</div>
+            
+        </div>
+        <div className='col sm-12 md-4 lg-4 padding'>
+        <div class="card reveal fit-height text-white pointer">
+    <div class="reveal-front indigo content-middle">
+   <div>
+   <h3>Jhon Deo</h3>
+     <div>Use the content-middle class to bring the content to the center of your card</div>
+   </div>
+    </div>
+    <img src="images/deo.jpg" class="width-100-p height-200" />
+  </div>
+            
+        </div>
+
+
+
+    </div>
+    <div class="padding">
+<Link to="/buttons"><button class="fun-secondary button card text-white f2">
+  Learn More
+  <i class="fas fa-angle-right margin-left-10"></i>
+  </button></Link>
+</div>
+</div>
+</div>
+
+
+</div>
+
+
 
 <Footer />
 
