@@ -20,7 +20,7 @@ function Home() {
      <h1 class="montserrat no-margin">Responsive Css</h1>
      <div class="text-larger">
        Funcss is a modern responsive css framework which uses css grid to create responsive 
-       website layout.
+       website layout which best fits all kind of screen sizes.
      </div>
     </div>
     </div>
@@ -204,7 +204,7 @@ Modern responsive CSS framework for developing responsive websites.
 
 <div className="container padding-top-30">
 <h1 className="text-center text-xx-large text-lighter text-indigo no-margin">HTML AND CSS BUTTONS</h1>
-<h2 class="text-x-large text-center no-margin">Create Nice Css Buttons Designs</h2>
+<h2 class="text-x-large text-center no-margin text-lighter">Create Nice Css Buttons Designs</h2>
 <div className="padding">
   Create nice css buttons for your website, use buttons with cool animation effects, 
   Just type the class <span class="badge">button</span> to style your button, you can change the background color
@@ -352,6 +352,11 @@ Modern responsive CSS framework for developing responsive websites.
     <div class="header">Comment</div>
     <input class="padding light width-100-p borderless section" placeholder="Enter your email" />
     <textarea class="padding light width-100-p borderless section" rows="5" placeholder="Enter your message" ></textarea>
+<div>
+    <button class="button padding indigo card text-white">
+        Comment <i class="fas fa-paper-plane"></i>
+    </button>
+</div>
 </div>
 
 <Footer />
