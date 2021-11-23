@@ -26,6 +26,7 @@ import Dropdown from './views/Dropdown';
 import Introduction from './views/Introduction';
 import Navigation from './views/Navigation';
 import Slider from './views/Slider';
+import About from './views/About';
 function App() {
   
   return (
@@ -54,6 +55,7 @@ function App() {
           <Route  path="/introduction"><Introduction /></Route>
           <Route  path="/navigationbar"><Navigation /></Route>
           <Route  path="/slider"><Slider/></Route>
+          <Route  path="/about"><About/></Route>
           <Route exact path="*" > <FourOFour /> </Route>
           </Switch>
           </div>

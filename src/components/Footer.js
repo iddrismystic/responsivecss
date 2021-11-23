@@ -3,7 +3,7 @@ import React from 'react';
 function Footer(props) {
     const year = new Date().getFullYear()
     return (
-        <footer  className="padding-top-50 padding-bottom-20">
+        <footer  className="padding-top-50 padding-bottom-20 text-small">
           <div className="container">
             <div className="text-center">
            

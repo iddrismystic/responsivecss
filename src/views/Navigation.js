@@ -193,17 +193,9 @@ This navigation bar have dropdown which contains links to other subpages.
 <div class="navigation-bar responsive light card">
    <div class="text-x-large nav-logo">Logo</div>
    <div class="navigation-trigger">
-   <i class="fas fa-bars" onClick={()=>{
-    if(height != "fit-content"){
-    setheight("fit-content")
-    setoverflow("visible")
-    }else{
-    setheight("0px")
-    setoverflow("hidden")
-    }
-   }}></i>
+   <i class="fas fa-bars sidebar-trigger"></i>
    </div>
-     <div class="indigo padding collapse" style={{height:`${height}`,overflow:`${overflow}`}}>
+     <div class="indigo padding collapse">
         <div class="link-wrapper">
          <a href="#" class="text-white">Home</a>
        <a href="#services" class="text-white">Services</a>

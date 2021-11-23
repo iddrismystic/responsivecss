@@ -14,10 +14,6 @@ function Sidebar() {
             path:"gettingstarted"
         } ,
         {
-            text:"Introduction",
-            path:"introduction"
-        } ,
-        {
             text:"Colors",
             path:"colors"
         } ,
@@ -80,6 +76,10 @@ function Sidebar() {
         {
             text:"Slider",
             path:"slider"
+        },
+        {
+            text:"About",
+            path:"about"
         } 
     ]
 
@@ -98,7 +98,7 @@ function Sidebar() {
     }
     const [search, setsearch] = useState('');
     return (
-        <div className="">
+        <div className="text-small">
 
               <div className="open-sidebar">
             <span class="material-icons icon size-2 pointer" onClick={Handlesidebar} >
@@ -115,7 +115,7 @@ function Sidebar() {
                   <div className="hr margin-top-10"></div>
 
                   <div>
-                      <input className="input search width-100-p padding-top-20 padding-bottom-20 lighter" onChange={(e)=>setsearch(e.target.value)} placeholder="Search...?" />
+                      <input className="input search width-100-p padding-top-10 padding-bottom-10 text-center" onChange={(e)=>setsearch(e.target.value)} placeholder="Search..." />
                   </div>
                   
                   <div className="section">

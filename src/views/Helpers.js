@@ -168,7 +168,8 @@ The <span class="badge">width-value</span> and the  <span class="badge">width-va
 <span class="badge">width-value</span> gives a width with the value in px.
 <span class="badge">width-value-p</span> gives a width in percentage with the value.
 Example, width-100-p will give width of 100 percent. <br />
-The following values can be use to give a width to your element 10,20,30,40,50,60,70,80,90,100,200,300,400,500,600,700,800,900 and 1000
+The following values can be use to give a width to your element,
+<span class="badge"> 10,20,30,40,50,60,70,80,90,100,200,300,400,500,600,700,800,900 and 1000</span>
 </div>
 </div>
 
@@ -199,27 +200,14 @@ The following values can be use to give a width to your element 10,20,30,40,50,6
         <div className="header-3 text-indigo">Padding</div>
 
 <div class="note">
-The padding class is use to give a padding of 10px on all sides. <br />
+The  <span class="badge">padding</span> class is use to give a padding of 10px on all sides. <br />
 To give a padding at the top, the <span class="badge">padding-top-value</span> is use. <br />
 To give a padding at the bottom, the <span class="badge">padding-bottom-value</span> is use. <br />
 To give a padding at the left, the <span class="badge">padding-left-value</span> is use. <br />
 To give a padding at the right, the <span class="badge">padding-right-value</span> is use. <br />
-The values  for our css padding are 10,20,30,40,50,60,70,80,90 and 100
+The values  for our css padding are <span class="badge">10,20,30,40,50,60,70,80,90 and 100</span>
 </div>
-<ul class="list bordered hoverable light">
-    <li class="header">Values</li>
-    <li>10</li>
-    <li>20</li>
-    <li>30</li>
-    <li>40</li>
-    <li>50</li>
-    <li>60</li>
-    <li>70</li>
-    <li>80</li>
-    <li>90</li>
-    <li>100</li>
 
-  </ul>
   <div class="code">
    <xmp>
 {padding}
@@ -260,27 +248,13 @@ The values  for our css padding are 10,20,30,40,50,60,70,80,90 and 100
         <div className="header-3 text-indigo">Margin</div>
 
 <div class="note">
-The margin class is use to give a margin of 10px on all sides. <br />
-To give a margin at the top, the <span class="badge white text-red">margin-top-value</span> is use. <br />
-To give a margin at the bottom, the <span class="badge white text-red">margin-bottom-value</span> is use. <br />
-To give a margin at the left, the <span class="badge white text-red">margin-left-value</span> is use. <br />
-To give a margin at the right, the <span class="badge white text-red">margin-right-value</span> is use. <br />
-The values  for our css margin are 10,20,30,40,50,60,70,80,90 and 100
+The <span class="badge">margin</span> class is use to give a margin of 10px on all sides. <br />
+To give a margin at the top, the <span class="badge">margin-top-value</span> is use. <br />
+To give a margin at the bottom, the <span class="badge">margin-bottom-value</span> is use. <br />
+To give a margin at the left, the <span class="badge">margin-left-value</span> is use. <br />
+To give a margin at the right, the <span class="badge">margin-right-value</span> is use. <br />
+The values  for our css margin are <span class="badge">10,20,30,40,50,60,70,80,90 and 100</span> 
 </div>
-<ul class="list bordered hoverable light">
-    <li class="header">Values</li>
-    <li>10</li>
-    <li>20</li>
-    <li>30</li>
-    <li>40</li>
-    <li>50</li>
-    <li>60</li>
-    <li>70</li>
-    <li>80</li>
-    <li>90</li>
-    <li>100</li>
-
-  </ul>
   <div class="code">
    <xmp>
 {margin}
@@ -387,7 +361,13 @@ The values  for our css margin are 10,20,30,40,50,60,70,80,90 and 100
 
 <div class="padding-top-30" id="show-hide">
 <div className="topic header-3 text-indigo">Hide And Show Based On Screen Width</div>
-<table class="table width-100-p text-left text-normal stripped">
+<div class="note">
+  When creating websites, you might want to hide certain contents of your website base on the screen size 
+  of the user. Our framework is perfect for that kind job. Learn how to show and hide certain contents of Your
+  website base on the users screen width.
+  
+</div>
+<table class="table width-100-p text-left text-small stripped">
     <thead>
     <tr>
 
@@ -442,7 +422,7 @@ The values  for our css margin are 10,20,30,40,50,60,70,80,90 and 100
         </tr>
         <tr>
             <td><span class="badge">.show-medium-up</span></td>
-            <td class="show-medium-up">Shown to Tablets and large screens</td>
+            <td class="">Shown to Tablets and large screens</td>
         </tr>
   
       
@@ -453,7 +433,8 @@ The values  for our css margin are 10,20,30,40,50,60,70,80,90 and 100
 <div class="note section">
 <div class="note-title">Note</div>
 <div>
-    Make sure to always use greate fonts when creating a website.
+  Using helpers will help reduce your strees and save time when you are creating a wesbite.
+  Make sure to always hide some specific elements or show them to different screen sizes,
 </div>
 </div>
 </div>

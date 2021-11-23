@@ -83,7 +83,7 @@ function Card() {
             {`
 <div class="card width-300">
     <div class="relative">
-        <img src="images/deo.jpg" className="width-100-p height-200" />
+        <img src="images/deo.jpg" class="width-100-p height-200" />
         <div class="text-large card-title text-white">Card Title</div>
     </div>
 
@@ -151,7 +151,7 @@ function Card() {
     <div class="code">
         <xmp>
          {`<div class="card horizontal hover-shadow">
-        <div className="relative">
+        <div class="relative">
              <img src="images/deo.jpg" class="responsive" />
                 <div class="text-large card-title text-white">Card Title</div>
         </div>

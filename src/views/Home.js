@@ -17,7 +17,7 @@ function Home() {
     <img src="/svg/devices.svg" className="responsive" />
     </div>
     <div class="col padding sm-12 md-8 lg-8 ">
-     <h1 class="montserrat no-margin">Best Css Framework Developing Responsive Websites</h1>
+     <h1 class="montserrat no-margin">Responsive Css</h1>
      <div class="text-larger">
        Funcss is a modern responsive css framework which uses css grid to create responsive 
        website layout.
@@ -34,9 +34,10 @@ function Home() {
     <div class="col sm-12 md-4 lg-4 ">
       <img src="/images/13.jpg" class="round-edge responsive" />
     </div>
-    <div class="col padding sm-12 md-8 lg-8 ">
-     <h1 class="montserrat">Reduce Coding Stress</h1>
+    <div class="col padding-20 sm-12 md-8 lg-8 ">
+     <h1 class="montserrat no-margin">Reduce Coding Stress</h1>
      <div class="text-larger">
+     Reduce your stress in coding and save time using our framework.
      Funcss come with build-in css classes, just specify the class name and funcss will do the rest for you.
      </div>
     </div>
@@ -49,10 +50,13 @@ function Home() {
     <div class="col sm-12 md-4 lg-4 ">
       <img src="/images/14.jpg" class="round-edge responsive" />
     </div>
-    <div class="col padding sm-12 md-8 lg-8 ">
-     <h1 class="montserrat no-margin">Greate UI Designs</h1>
+    <div class="col padding-20 sm-12 md-8 lg-8 ">
+     <h1 class="montserrat no-margin">Free Website Templates</h1>
      <div class="text-larger">
-      Create awesome web design using funcss, build impressive website with just little effort.
+    Get access to free premium themes and make your dream work
+     Download and use our free website templates to ease your wok in development.
+    Create awesome web design using our framework, build impressive website with just little effort.
+
      </div>
     </div>
     </div>
@@ -101,7 +105,14 @@ Modern responsive CSS framework for developing responsive websites.
 <div className="text-center text-x-large text-lighter text-indigo">Our Themes</div>
 <div className="text-center text-larger">Free Css Themes</div>
 <div className="text-center text-medium text-lighter padding">
-  Download and use our Themes for free, Build cool websites with Funcss.</div>
+  Download and use our Themes for free, Build cool websites with Funcss.
+</div>
+
+<div>
+    <div class="card">
+        <div class="row">
+            <div class="col sm-12 md-6 lg-6">
+              
 <div class="slider three">
     <div class="slide-container">
         <div class="slide">
@@ -123,6 +134,52 @@ Modern responsive CSS framework for developing responsive websites.
    
     </div>
 
+</div>
+            </div>
+            <div class="col sm-12 md-6 lg-6">
+                <div class="relative">
+                <div class="indigo padding">
+             <h1 class="h3 no-margin text-lighter text-center text-white">Company Theme</h1>
+             </div>
+             <div>
+             <ul class="list stripped">
+              <li>
+              <i class="fas fa-check text-blue"></i>
+              &nbsp;Responsive
+            </li>
+              <li>
+              <i class="fas fa-check text-blue"></i>
+              &nbsp;100% Css
+            </li>
+              <li>
+              <i class="fas fa-check text-blue"></i>
+              &nbsp;Greate Layout
+            </li>
+              <li>
+              <i class="fas fa-check text-blue"></i>
+              &nbsp;Free Download
+            </li>
+            </ul>
+             </div>
+         <div class="padding">
+         <div class="flex">
+                 <div class="flex-50">
+                     <a href="https://funcsscompanytemplate.surge.sh">
+                     <button class="button blue card full-width text-white">Preview</button>
+                     </a>
+                 </div>
+                 <div class="flex-50">
+                     <a href="https://codeload.github.com/iddrismystic/companytheme/zip/refs/heads/main">
+                     <button class="button deep-purple card full-width text-white">Download</button>
+                     </a>
+                 </div>
+             </div>
+         </div>
+                </div>
+ 
+            </div>
+        </div>
+    </div>
 </div>
 </div>
 
@@ -223,7 +280,7 @@ Modern responsive CSS framework for developing responsive websites.
  Design nice css cards, hoverable fliping card, reveal content card and horizontal cards.
  Cards are use to design specific important areas of your website, you can use css cards to 
  design the about page of your website, login forms, and other forms. <br />
- The class <span class="card">card </span> is use to create a cool shadow effect on your 
+ The class <span class="badge">card </span> is use to create a cool shadow effect on your 
  html element.
 </div>
 <div>
@@ -233,11 +290,11 @@ Modern responsive CSS framework for developing responsive websites.
         <div className='col sm-12 md-4 lg-4 padding'>
 <div class="card width-100-p">
     <div class="relative">
-        <img src="images/deo.jpg" className="width-100-p height-200" />
+        <img src="images/deo.jpg" className="width-100-p height-200" alt="css card" />
         <div class="text-large card-title text-white">Card Title</div>
     </div>
 
-    <div class="padding">
+    <div class="padding text-small">
     This is have a Title on top of the image.
     You can use this card to display informtion about a person or a team.
     </div>
@@ -246,12 +303,16 @@ Modern responsive CSS framework for developing responsive websites.
         <div className='col sm-12 md-4 lg-4 padding'>
 <div class="card hover-shadow">
     <div class="relative">
-        <img src="images/deo.jpg" class="width-100-p height-200" />
+        <img src="images/deo.jpg" class="width-100-p height-200" alt="css card"/>
         <div class="text-large card-title text-white">Card Title</div>
-        <div class="text-large card-fab"> <button class='button indigo card text-white float height-40 width-40'>Fab</button></div>
+        <div class="text-large card-fab">
+            <button class='button indigo card text-white float height-40 width-40'>
+            <i class="fas fa-check"></i>
+            </button>
+        </div>
     </div>
 
-    <div class="padding">
+    <div class="padding text-small">
     This is have a Title on top of the image with a floating button.
     You can use this card to display informtion about a person or a team.
     </div>
@@ -260,13 +321,18 @@ Modern responsive CSS framework for developing responsive websites.
         </div>
         <div className='col sm-12 md-4 lg-4 padding'>
         <div class="card reveal fit-height text-white pointer">
-    <div class="reveal-front indigo content-middle">
-   <div>
-   <h3>Jhon Deo</h3>
-     <div>Use the content-middle class to bring the content to the center of your card</div>
-   </div>
+    <div class="reveal-front indigo padding">
+  <div class="h3 text-center">Css Card Reveal</div>
+  <p>
+      This card reaveals its content when you hover on it.
+  </p>
+  <div class="padding text-center">
+  <i class="fab fa-facebook pointer icon size-1 margin"></i>
+  <i class="fab fa-instagram pointer icon size-1 margin"></i>
+  <i class="fab fa-twitter pointer icon size-1 margin"></i>
+  </div>
     </div>
-    <img src="images/deo.jpg" class="width-100-p height-200" />
+    <img src="images/deo.jpg" class="width-100-p height-200" alt="css card reveal" />
   </div>
             
         </div>
@@ -275,7 +341,7 @@ Modern responsive CSS framework for developing responsive websites.
 
     </div>
     <div class="padding">
-<Link to="/buttons"><button class="fun-secondary button card text-white f2">
+<Link to="/card"><button class="fun-secondary button card text-white f2">
   Learn More
   <i class="fas fa-angle-right margin-left-10"></i>
   </button></Link>
