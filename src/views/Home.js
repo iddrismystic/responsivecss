@@ -69,9 +69,9 @@ function Home() {
 
       <div className="container">
       <center><h1 class="text-bigger text-pink no-margin">Fun Css</h1></center>
-<h2 class="text-x-large text-center container  text-lighter">
+<h1 class="text-x-large text-center container  text-lighter">
 Modern responsive CSS framework for developing responsive websites.
-</h2>
+</h1>
 <div class="flex">
     <div class="flex-50">
         <div class="padding">
@@ -348,7 +348,11 @@ Modern responsive CSS framework for developing responsive websites.
 
 </div>
 
-
+<div class="container padding-top-30">
+    <div class="header">Comment</div>
+    <input class="padding light width-100-p borderless section" placeholder="Enter your email" />
+    <textarea class="padding light width-100-p borderless section" rows="5" placeholder="Enter your message" ></textarea>
+</div>
 
 <Footer />
 
