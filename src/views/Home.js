@@ -63,11 +63,7 @@ function Home() {
         </div>
         </div>
     </div>
-    <div class="dot-container">
-            <i class="fas fa-circle dot one"></i>
-            <i class="fas fa-circle dot two"></i>
-            <i class="fas fa-circle dot three"></i>
-    </div>
+ 
 </div>
 </div>
 

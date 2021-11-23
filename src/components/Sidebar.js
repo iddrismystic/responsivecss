@@ -84,15 +84,15 @@ function Sidebar() {
     ]
 
     //handlesidebar
-    const [sideopacity, setsideopacity] = useState(1);
+    const [width, setwidth] = useState("fit-content");
     const [display, setdisplay] = useState('block');
     const Handlesidebar = ()=>{
-     if(sideopacity === 1){
-         setsideopacity(0)
+     if(width === "fit-content"){
+         setwidth("0px")
          setdisplay('none')
 
     }else{
-         setsideopacity(1)
+         setwidth("fit-content")
          setdisplay('block')
     }
     }
@@ -105,7 +105,7 @@ function Sidebar() {
                menu
             </span>
               </div>
-              <div className="SideBar" style={{opacity : `${sideopacity}`, display:`${display}`}}>
+              <div className="SideBar" style={{width : `${width}`, display:`${display}`}}>
                   <div className="padding">
                           <center>
                           <Logo />

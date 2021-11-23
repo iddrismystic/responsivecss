@@ -60,7 +60,7 @@ color: #4CAF50;
   
   }
 @media (max-width : 950px){
-  .SideBar{display: block; width: fit-content;z-index: 10;background-color: whitesmoke;}
+  .SideBar{display: none; z-index: 10;background-color: whitesmoke;}
   .Content{width: 100%;}
   .open-sidebar{display: block;}
 }
