@@ -3,7 +3,7 @@ import React from 'react';
 function Introduction() {
     return (    	
         <section>
-            
+     
 <div className="content-wrapper">
             <div className="sub-content padding">
              <div className="border padding height-200 content-middle light">

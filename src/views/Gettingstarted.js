@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouterasRouter } from 'react-router-dom';
 import Footer from '../components/Footer';
 import Logo from './../components/Logo';
-
+import {Helmet} from "react-helmet"
 function Gettingstarted() {
     const cdn = {
         csscompiled:`
@@ -22,6 +22,18 @@ function Gettingstarted() {
     }
     return (
         <section>
+
+          <Helmet>
+            <title>Funcss Getting Started</title>
+          <meta name='description' content='
+        Getting started with funcss framework, download the funcss framework
+        for free and begin creating your dream projects.
+    ' />
+    <meta
+    name="keywords"
+    content="fun, css, download, frame work"
+    />
+          </Helmet>
                         <div className="content-wrapper">
             <div className="sub-content padding">
              <div className="border padding height-200 content-middle light">

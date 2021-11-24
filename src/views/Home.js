@@ -2,11 +2,22 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Footer from './../components/Footer';
 import Colors from './Colors';
-
+import {Helmet} from "react-helmet"
 function Home() {
     return (
         <section className="padding-top-30">
-
+ <Helmet>
+ <title>Fun Css Framework</title>
+ <meta name='description' content='
+     Fun css framework is a modern responsive css framework for developing
+     responsive websites, with free website templates you can download.
+    ' />
+    <meta
+    name="keywords"
+    content="css, framework, free website templates, themes"
+    
+    />
+ </Helmet>
 <div class="container">
 <div class="slider three">
     <div class="slide-container">
@@ -18,7 +29,7 @@ function Home() {
     </div>
     <div class="col padding sm-12 md-8 lg-8 ">
      <h1 class="montserrat no-margin">Responsive Css</h1>
-     <div class="text-larger">
+     <div class="">
        Funcss is a modern responsive css framework which uses css grid to create responsive 
        website layout which best fits all kind of screen sizes.
      </div>
@@ -36,7 +47,7 @@ function Home() {
     </div>
     <div class="col padding-20 sm-12 md-8 lg-8 ">
      <h1 class="montserrat no-margin">Reduce Coding Stress</h1>
-     <div class="text-larger">
+     <div>
      Reduce your stress in coding and save time using our framework.
      Funcss come with build-in css classes, just specify the class name and funcss will do the rest for you.
      </div>
@@ -52,11 +63,9 @@ function Home() {
     </div>
     <div class="col padding-20 sm-12 md-8 lg-8 ">
      <h1 class="montserrat no-margin">Free Website Templates</h1>
-     <div class="text-larger">
+     <div>
     Get access to free premium themes and make your dream work
      Download and use our free website templates to ease your wok in development.
-    Create awesome web design using our framework, build impressive website with just little effort.
-
      </div>
     </div>
     </div>
