@@ -64,7 +64,14 @@ color: #4CAF50;
   .Content{width: 100%;}
   .open-sidebar{display: block;}
 }
-
+.sidebar-icon{
+  display: none;
+  transition: 2s;
+}
+.sidebar-link:hover .sidebar-icon{
+  display: inline-block;
+  margin-left: 10px;
+}
 .content-wrapper{position: relative;width: 100%;}
 .main-content{position: absolute;left: 0;top: 0;width: 80%;padding-bottom: 50px;}
 .sub-content{position: fixed;right: 10px;top: 10px;width: 20%;padding: 10px;height: 100%;font-size: small;}
